@@ -24,7 +24,7 @@ To run this program, follow these steps:
    ```shell
    git clone https://github.com/Saffy127/Assignment3_Group3.git
    
-cd Assignment3_Group3
-java -jar WordTracker.jar "input_file_path" -pf -f "output_file_path"
-java -jar WordTracker.jar "input_file_path" -pl -f "output_file_path"
-java -jar WordTracker.jar "input_file_path" -po -f "output_file_path"
+   cd Assignment3_Group3
+   java -jar WordTracker.jar "input_file_path" -pf -f "output_file_path"
+   java -jar WordTracker.jar "input_file_path" -pl -f "output_file_path"
+   java -jar WordTracker.jar "input_file_path" -po -f "output_file_path"
