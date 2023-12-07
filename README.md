@@ -1,34 +1,30 @@
-Project Name: Assignment3_Group3
+# Assignment3_Group3
 
-Introduction:
+**Introduction:**
 
-The program accepts the user's input on command line and read information from the text file and generate a word object
-of the binary tree, which is serialized into the repository.ser file. The program will be stored in a list for each word
-object stored in the BST. The program will also produce output, specified by the user at command line, to generate reports
-using a variety of iterators built into the BST
+The program accepts user input from the command line, reads information from a text file, and generates a word object of the binary tree. This word object is serialized into the `repository.ser` file. Each word object is also stored in a list within the Binary Search Tree (BST). The program allows users to produce output, specified via command line arguments, to generate reports using various iterators built into the BST.
 
-DATE: Dec 1, 2023
+- **Date:** Dec 1, 2023
+- **Authors:** Isaac, Jayden, David
 
-Author: Isaac, Jayden, David
+**User Options:**
 
+Users can choose from three ways to retrieve information:
 
-Users can choose three ways to retrieve information:
+1. `-pf`: Print words in alphabetic order along with the corresponding list of files in which the words occur.
+2. `-pl`: Print words in alphabetic order along with the corresponding list of files and numbers of the lines in which the word occurs.
+3. `-po`: Print words in alphabetic order along with the corresponding list of files, numbers of the lines in which the word occurs, and the frequency of occurrence of the words.
 
-1. -pf to print in alphabetic order all words along with the corresponding list of files in which
-the words occur.
-2. -pl to print in alphabetic order all words along with the corresponding list of files and
-numbers of the lines in which the word occur.
-3. -po to print in alphabetic order all words along with the corresponding list of files,
-numbers of the lines in which the word occur and the frequency of occurrence of the
-words.
+**How to Run:**
 
-How to run this program:
+To run this program, follow these steps:
 
-Download the zip locally or clone our repo from github: git clone https://github.com/Saffy127/Assignment3_Group3.git
+1. **Clone the Repository:**
 
-Open command line on the WordTracker.jar folder.
-It needs three parameters: the input file path, the processing type, and the output file path
-Example:
+   ```shell
+   git clone https://github.com/Saffy127/Assignment3_Group3.git
+   
+cd Assignment3_Group3
 java -jar WordTracker.jar "input_file_path" -pf -f "output_file_path"
 java -jar WordTracker.jar "input_file_path" -pl -f "output_file_path"
 java -jar WordTracker.jar "input_file_path" -po -f "output_file_path"
